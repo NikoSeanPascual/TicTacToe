@@ -1,21 +1,52 @@
-# Terminal-Based To-Do List
+# ❌⭕ Tic-Tac-Toe AI (Minimax Edition)
 
-A simple Python terminal application to manage your daily tasks. This project allows you to **add, view, remove, and clear tasks** directly from the terminal.
+A terminal-based **Tic-Tac-Toe game** written in Python where you play against an **unbeatable AI** powered by the **Minimax algorithm with Alpha-Beta pruning**.
 
-## Features
+The AI does not make mistakes.  
+Your job is to try anyway.
 
-- Add a task to your to-do list
-- View all tasks in the list
-- Remove a specific task by number
-- Clear all tasks
-- Exit the program
+---
 
-## How to Use
+## 🎮 How the Game Works
 
-1. Clone the repository or download `to-do-list.py`.
-2. Open a terminal and navigate to the folder containing `to-do-list.py`.
-3. Run the program:
+- You play as **X**
+- The AI plays as **O**
+- The board is a 3×3 grid
+- You enter moves using **row and column numbers (0–2)**
+- The AI calculates the best possible move every turn
+
+If you win, congratulations — that’s rare.  
+If you lose… the AI will let you know.
+
+---
+
+## 🧠 AI Logic (Minimax + Alpha-Beta Pruning)
+
+This project uses:
+- **Minimax algorithm** to evaluate all possible game states
+- **Alpha-Beta pruning** to optimize performance
+- Depth-based scoring to prefer faster wins and slower losses
+
+Result:  
+➡️ The AI is **mathematically optimal** and **cannot be beaten**
+
+---
+
+## ✨ Features
+
+- Unbeatable AI opponent
+- Clean board rendering in the terminal
+- Input validation (with… strong personality)
+- Win, lose, and draw detection
+- Replay option after every match
+- Simple and readable Python logic
+
+---
+
+## ▶️ How to Run
+
+1. Make sure you have **Python 3** installed
+2. Run the game:
 
 ```bash
-python to-do-list.py
-****
+python tictactoe.py
